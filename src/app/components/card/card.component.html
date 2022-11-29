@@ -1,0 +1,18 @@
+<div class="card">
+  <img class="card-img-top" [src]="users.image" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">{{users.firstName}} {{users.lastName}}</h5>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item size"><b>Age:</b> {{users.age}}</li>
+    <li class="list-group-item size"><b>Gender:</b> {{users.gender}}</li>
+    <li class="list-group-item size"><b>Email:</b> {{users.email}}</li>
+    <li class="list-group-item size"><b>Phone:</b> {{users.phone}}</li>
+    <li class="list-group-item size"><b>Address:</b> {{users.address.city}}</li>
+  </ul>
+  <div class="card-body">
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+

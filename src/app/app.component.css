@@ -1,0 +1,37 @@
+.wrapper{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.wrapper .cards-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -5px;
+
+}
+.cards-wrapper .cards-item{
+    padding: 5px;
+    width: 33.33333%;
+}
+.error-template {padding: 40px 15px;text-align: center;}
+.error-actions {margin-top:15px;margin-bottom:15px;}
+.error-actions .btn { margin-right:10px; }
+
+
+.pagination{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px;
+}
+.page-item{
+    padding: 5px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    align-items: center;
+    cursor: pointer;
+}
+
+.activePage {
+    border-color: rgba(137, 43, 226, 0.341); 
+}
+
